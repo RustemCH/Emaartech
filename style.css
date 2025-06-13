@@ -1,0 +1,63 @@
+
+
+.populer{
+    margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+    .footer-top {
+      text-align: center;
+    }
+  }
+
+
+body{
+    background-color: burlywood;
+}
+
+.w-100-height{
+    width: 100%;
+    height: 90vh;
+}
+
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+.carousel-item {
+    min-height: 300px;
+}
+
+.carousel-caption {
+    text-align: left;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.card{
+    transition: all ease 0.3s;
+}
+.card:hover{
+  scale: 1.05;
+}
+
+
+ section{
+    background-color: brown;
+ }
+
+.nav-item{
+    background-color: burlywood;
+}
